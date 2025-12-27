@@ -12,7 +12,12 @@
 ```
 操作系统 ubuntu 
 python版本 3.8
-数据集路径 tcdata/
+数据集路径 tcdata/ 具体如下：
+project
+    |--README.md            
+    |--requirements.txt     
+    |--tcdata
+    |--code
 ```
 ### 离线
 ```
@@ -34,3 +39,4 @@ recall.py、recall_feature.py文件内设置：
 USE_SCHEME_1 = True / False #是否使用source-aware召回权重
 USE_SCHEME_2 = True / False #是否使用召回信息显式作为排序特征
 ```
+
